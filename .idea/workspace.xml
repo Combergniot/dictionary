@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf16b01-fb0c-4b5e-92b9-f8942c4d3687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/personalData/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/personalData/Guide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/personalData/ServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/Accommodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/Attraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/GuideProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/AdditionalAttractions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Cruise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/FortIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Gingerbread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Mill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/Planetarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/java/com/copernicana/tripregistry/model/tripForm/attractions/TeutonicCastle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CopernicanaApp/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dashboard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dashboard/src/main/java/com/gus/dashboard/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/java/com/concept/otomoto/data/CarOfferCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/java/com/concept/otomoto/data/DataCollectorSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/java/com/concept/otomoto/model/CarOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/java/com/concept/otomoto/repository/CarOfferRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/java/com/concept/otomoto/service/CarOfferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Otomoto/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pytania rekrutacyjne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pytania rekrutacyjne/src/com/company/fib2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/data/DataSourceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/data/Scrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/data/ScrapperSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/repository/DictionaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gus/translations/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gus/translations/data/ScrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/controller/OfferController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/data/DataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/DanePracodawcy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/PozostaleDane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/WarunkiPracyIPlacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/Wymagania.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/WymaganiaDodatkowe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/WymaganiaKonieczne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/domain/WymaganiaPozadane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/repository/OfferRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/java/com/gus/service/OfferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsonToCBOPdb/src/test/java/com/gus/data/DataAccessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/com/company/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/com/company/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/com/company/RandomTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania/src/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania/src/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania/src/SilniaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBOP_Scrapper" beforeDir="false" afterPath="$PROJECT_DIR$/../CBOP_Scrapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HtmlParser" beforeDir="false" afterPath="$PROJECT_DIR$/../HtmlParser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOH" beforeDir="false" afterPath="$PROJECT_DIR$/../JOH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOH.7z" beforeDir="false" afterPath="$PROJECT_DIR$/../JOH.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZiS" beforeDir="false" afterPath="$PROJECT_DIR$/../KZiS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codePotatoInc-copernicana2-06e260ae8196" beforeDir="false" afterPath="$PROJECT_DIR$/../codePotatoInc-copernicana2-06e260ae8196" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../copernicana" beforeDir="false" afterPath="$PROJECT_DIR$/../copernicana" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsontodb" beforeDir="false" afterPath="$PROJECT_DIR$/../jsontodb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../motokariera-staging" beforeDir="false" afterPath="$PROJECT_DIR$/../motokariera-staging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordCloud" beforeDir="false" afterPath="$PROJECT_DIR$/../wordCloud" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/out/production/zadania/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/out/production/zadania/Factorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/out/production/zadania/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/out/production/zadania/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/src/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/src/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania/zadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania/zadania.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Translations$Main.ic" NAME="Main Coverage Results" MODIFIED="1542620779748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gus.translations.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE-sources.jar!/org/springframework/boot/CommandLineRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/model/Dictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2397#2398#0" expanded="true" />
+                <element signature="e#2605#2606#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/ScrapperSetting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/Scrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2516">
+              <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/String.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16490">
+              <caret line="1038" column="20" selection-start-line="1038" selection-start-column="20" selection-end-line="1038" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gus/translations/data/ScrapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/DataSourceDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/service/DictionaryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>data</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/model/DictionaryDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/model/DictionaryDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/model/Definition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/repository/DefinitionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/service/DefinitionService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="4cbb8509-1fdd-40e9-9ccd-1fff1dcf8395/consoles/Connection" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/repository/DictionaryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/service/DictionaryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/data/DataSourceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/data/ScrapperSetting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/model/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gus/translations/data/ScrapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/data/Scrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gus/translations/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1225" />
+    <option name="y" value="172" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Translations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Translations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550234873825" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JOH" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25115207" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gus.translations.data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gus.translations.Main" />
+      <module name="Translations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gus.translations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapperTest.shouldSayThatDomainIsTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Translations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gus.translations.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gus.translations.data" />
+      <option name="MAIN_CLASS_NAME" value="com.gus.translations.data.ScrapperTest" />
+      <option name="METHOD_NAME" value="shouldSayThatDomainIsTheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapperTest.shouldSayThatDomainIstheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Translations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gus.translations.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gus.translations.data" />
+      <option name="MAIN_CLASS_NAME" value="com.gus.translations.data.ScrapperTest" />
+      <option name="METHOD_NAME" value="shouldSayThatDomainIstheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Translations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gus.translations.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gus.translations.data" />
+      <option name="MAIN_CLASS_NAME" value="com.gus.translations.data.ScrapperTest" />
+      <option name="METHOD_NAME" value="shouldSayThatEmailIsTheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapperTest.shouldSayThatResponsiblePersonIsTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Translations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gus.translations.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gus.translations.data" />
+      <option name="MAIN_CLASS_NAME" value="com.gus.translations.data.ScrapperTest" />
+      <option name="METHOD_NAME" value="shouldSayThatResponsiblePersonIsTheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ScrapperTest.shouldSayThatEmailIsTheSame" />
+        <item itemvalue="JUnit.ScrapperTest.shouldSayThatDomainIsTheSame" />
+        <item itemvalue="JUnit.ScrapperTest.shouldSayThatDomainIstheSame" />
+        <item itemvalue="JUnit.ScrapperTest.shouldSayThatResponsiblePersonIsTheSame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf16b01-fb0c-4b5e-92b9-f8942c4d3687" name="Default Changelist" comment="" />
+      <created>1541491608430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541491608430</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ScrapperTest_shouldSayThatDomainIsTheSame - 2019.02.15 at 12h 03m 43s.xml">
+      <configuration name="ScrapperTest.shouldSayThatDomainIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 03m 53s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 04m 20s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 04m 42s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 05m 19s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 05m 40s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 05m 56s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 06m 21s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 06m 37s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrapperTest_shouldSayThatEmailIsTheSame - 2019.02.15 at 12h 07m 25s.xml">
+      <configuration name="ScrapperTest.shouldSayThatEmailIsTheSame" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41343042" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gus/translations/Main.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://4cbb8509-1fdd-40e9-9ccd-1fff1dcf8395/consoles/Connection" />
+    <entry file="file://$PROJECT_DIR$/Translations.iml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/repository/DictionaryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE-sources.jar!/org/springframework/boot/CommandLineRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/model/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2605#2606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/ScrapperSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/Scrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16490">
+          <caret line="1038" column="20" selection-start-line="1038" selection-start-column="20" selection-end-line="1038" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gus/translations/data/ScrapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/data/DataSourceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gus/translations/service/DictionaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25115207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25115207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Translations</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25115207" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25115207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
